@@ -142,9 +142,13 @@ h2{
     margin-top:0;
     color:#000000;
 }
-.input p{
-    display: inline-block;
-    margin:8px 0;
+input{
+    width:300px;
+    display:inline-block;
+    background-color:transparent;
+    outline:none;
+    border:none;
+    
 }
 /* .signbox a img{
     float:right;
