@@ -144,6 +144,7 @@ h2{
 }
 input{
     width:300px;
+    margin:8px 0;
     display:inline-block;
     background-color:transparent;
     outline:none;
