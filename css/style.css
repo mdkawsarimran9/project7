@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+body{
+    font-family: "Playfair Display", serif;
+    margin:0;
+    padding:0;
+}
+nav{
+    width:90%;
+    margin:0 auto;
+    /* border:1px solid; */
+    overflow:hidden;
+}
+.logo{
+    width:10%;
+    /* border:1px solid; */
+    float:left;
+}
+.logo a{
+    font-family: "Inconsolata", monospace;
+    font-size:30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    width:100%;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#000000;
+}
+.menu{
+    width:50%;
+    /* border:1px solid; */
+    float:right;
+    padding:20px 0;
+}
+.menu ul{
+    list-style: none;
+    float:right;
+}
+.menu ul li{
+    margin: 0 36px;
+    float:left;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#626262;
+    border-bottom:1px solid transparent;
+    transition:.35s;
+}
+.menu ul li a:hover{
+    border-bottom:1px solid #626262;
+}
+.menu ul li:last-child {
+    margin-right:0;
+}
+.banner{
+    width:90%;
+    /* border:1px solid; */
+    margin: 0 auto;
+    padding:50px 0;
+}
+.banner .banner_img{
+    width:100%;
+    /* border:1px solid red; */
+}
+.banner_img img{
+    width:100%;
+}
+.sometext{
+    width:90%;
+    /* border:1px solid; */
+    margin:0 auto;
+    padding-top:50px;
+}
+h5{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:#B4AD9E;
+    margin-bottom:0;
+}
+h2{
+    font-size: 50px;
+    color:#626262;
+}
+.sometext p{
+    margin-bottom: 55px;
+    
+}
+.container{
+    width:90%;
+    /* border:1px solid green; */
+    margin:0 auto;
+    padding-bottom:50px;
+    overflow:hidden;
+}
+.container .box{
+    width:48%;
+    /* border:1px solid; */
+    margin-top:150px;
+}
+.container .box img{
+    width:100%;
+}
+.container .img1{
+    float:left;
+}
+.container .img3{
+    float:left;
+}
+.container .img2{
+    float:right;
+}
+.container .img4{
+    float:right;
+}
+.signup{
+    background-color: #F0F0F0;
+    
+}
+.signup .sign{
+    width:90%;
+    margin:0 auto;
+    padding:40px 0;
+    /* border:1px solid; */
+}
+.signbox{
+    width:36%;
+    margin:0 auto;
+    margin-bottom:100px;
+    padding-top:50px;
+    padding-bottom:0;
+    border-bottom:1px solid;
+    overflow:hidden;
+}
+.signbox h2{
+    margin-top:0;
+    color:#000000;
+}
+.input p{
+    display: inline-block;
+    margin:8px 0;
+}
+/* .signbox a img{
+    float:right;
+    
+} */
+.input img{
+    float:right;
+    margin:8px 0;
+}
+.container1{
+    width:90%;
+    margin:0 auto;
+}
+.container2{
+    width:90%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.container2 .box{
+        width:48%;
+        /* border:1px solid; */
+        margin-top:120px;
+}
+.container2 .box img{
+    width:100%;
+}
+.img1{
+    float:left;
+}
+.img2{
+    float:right;
+}
+.parent{
+    /* border:1px solid; */
+    display: flex;
+    justify-content: center;
+    padding:150px 0;
+}
+.button button{
+    padding:15px 30px;
+    font-family: "Playfair Display", serif;
+    color:#626262;
+    font-size: 20px;
+    background-color: #ffffff;
+    border:1px solid;
+}
+.button button:hover{
+    background-color: #F0F0F0;
+}
+footer{
+    background-color: #F0F0F0;
+    overflow: hidden;
+    padding:45px;
+}
+.starting{
+    width:15%;
+    /* border:1px solid; */
+    float:left;
+    margin: 14px 0;
+    margin-left:100px;
+}
+.starting a{
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color:#000000;
+    margin-left: 10px;
+    border-bottom:1px solid transparent;
+    transition:.35s;
+}
+.starting a:hover{
+    border-bottom:1px solid #000000;
+}
+.ending{
+    width:10%;
+    float:right;
+}
+.social{
+    width:20px;
+    height:20px;
+    margin-left:10px;
+    display: inline-block;
+}
+.ending p{
+    display: inline-block;
+}
+.facebook img{
+    width:100%;
+}
+.twitter img{
+    width:100%;
+}
+.insta img{
+    width:100%;
+}
